@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cuidado + Família</title>
+        <meta name="description" content="Aplicativo de suporte para pais de crianças com doenças degenerativas, oferecendo acesso a profissionais da saúde, orientações e apoio emocional." />
+        <link
+            rel="shortcut icon"
+            href="./assets/images/logos/icon.png"
+            type="image/x-icon"
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="Cuidado + Família - Suporte para Famílias" />
+        <meta property="og:description" content="Conecte-se com profissionais da saúde e receba suporte completo para cuidar de crianças com doenças degenerativas." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://cuidado-mais-familia.com.br" />
+        <meta property="og:image" content="./assets/images/logos/logo-azul-fundo-transparente.png" />
+
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/index.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+            integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a class="header-logo" href="">
+                    <img src="./assets/images/logos/logo-azul-fundo-transparente.png" alt="logo" />
+                </a>
+                <div class="collapsible-header animated-collapse" id="collapsed-header-items">
+                    <div class="header-nav">
+                        <a class="header-links" href="#sobre"> Sobre nós </a>
+                        <a class="header-links" href="#funcionalidades"> Funcionalidades </a>
+                        <a class="header-links" href="#blog"> Blog </a>
+                        <a class="header-links" href="#contato"> Contato </a>
+                    </div>
+                    <div class="header-actions">
+                        <a href="" aria-label="signup" class="download-btn">
+                            <span>Baixe o app</span>
+                        </a>
+                    </div>
+                </div>
+                <button class="menu-btn bi bi-list" onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" id="sobre">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-title">
+                            <span> Conecte-se instantaneamente </span>
+                            <br />
+                            <span class="highlight"> com profissionais da área da saúde </span>
+                        </div>
+                        <div class="hero-description">
+                            O Cuidado+Família é um aplicativo criado para oferecer suporte completo a pais de crianças com doenças degenerativas. Ele tem como principal missão proporcionar um ambiente seguro, acessível e informativo, reunindo em um único lugar apoio emocional, orientações práticas e acesso facilitado a profissionais da área da saúde.
+                        </div>
+
+                        <div class="hero-actions">
+                            <a class="btn" href="#download">Comece agora</a>
+                            <a class="btn" href="#funcionalidades"><span>Saiba mais</span></a>
+                        </div>
+                    </div>
+
+                    <div class="hero-image">
+                        <img src="./assets/images/home/iphone.png" alt="app" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="numbers" id="numeros">
+                <div class="container">
+                    <div class="numbers-container">
+                        <h3 class="numbers-title">Mais de</h3>
+                        <div class="numbers-grid" id="numbers-container">
+                            <div class="number-item">
+                                <span class="number-value">
+                                    <span id="installs">1500</span>
+                                    <span>+</span>
+                                </span>
+                                <span class="number-label">/Profissionais</span>
+                            </div>
+                            <div class="number-item">
+                                <span class="number-value">
+                                    <span id="hours">6000</span>
+                                    <span>+</span>
+                                </span>
+                                <span class="number-label">/Pais</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features" id="funcionalidades">
+                <div class="container">
+                    <div class="features-header">
+                        <h2 class="features-title">Funcionalidades</h2>
+                    </div>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <i class="bi bi-boombox-fill feature-icon"></i>
+                            <h3 class="feature-title">Acesso a Profissionais</h3>
+                            <div class="feature-description">
+                                Conecte-se diretamente com médicos, terapeutas e especialistas para tirar suas dúvidas e receber orientações personalizadas.
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="bi bi-award-fill feature-icon"></i>
+                            <h3 class="feature-title">Comunidade de Apoio</h3>
+                            <div class="feature-description">
+                                Faça parte de uma comunidade de pais que compartilham experiências e oferecem suporte emocional mútuo.
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <i class="bi bi-book-fill feature-icon"></i>
+                            <h3 class="feature-title">Informações Confiáveis</h3>
+                            <div class="feature-description">
+                                Acesse conteúdo verificado por especialistas sobre cuidados, tratamentos e desenvolvimento infantil.
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="bi bi-briefcase-fill feature-icon"></i>
+                            <h3 class="feature-title">Acompanhamento Personalizado</h3>
+                            <div class="feature-description">
+                                Mantenha um registro organizado do desenvolvimento e cuidados da criança, com lembretes e dicas personalizadas.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials" id="depoimentos">
+                <div class="container">
+                    <h3 class="testimonials-title">O que os usuários dizem</h3>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="./assets/images/people/p1.png" alt="homem" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Carlos André</div>
+                                    <div class="testimonial-role">pai da Mariana (6 anos)</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">
+                                O Cuidado+Família mudou nossa rotina. Agora temos orientações claras e apoio emocional que nos ajudam a lidar com o dia a dia da nossa filha.
+                            </p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="./assets/images/people/p2.png" alt="mulher" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Janaina</div>
+                                    <div class="testimonial-role">mãe da Ana (10 anos)</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">
+                                Nunca me senti tão acolhida. Encontrei respostas, conselhos e um espaço seguro para compartilhar minhas dúvidas como mãe de uma criança especial.
+                            </p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="./assets/images/people/p3.png" alt="mulher" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Patrícia</div>
+                                    <div class="testimonial-role">mãe da Rodrigo (15 anos)</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">
+                                Com o app, consegui organizar os cuidados do meu filho e me sentir menos sozinha. A comunidade e os especialistas são incríveis.
+                            </p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="./assets/images/people/p4.png" alt="mulher" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Dr. Marcos</div>
+                                    <div class="testimonial-role">Fisioterapeuta Pediátrico</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">
+                                Como fisioterapeuta, vejo o aplicativo como uma ponte entre o cuidado clínico e o familiar. É acessível e realmente útil no acompanhamento diário.
+                            </p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="./assets/images/people/p5.png" alt="homem" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Dra. Elaine</div>
+                                    <div class="testimonial-role">neuropediatra</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">
+                                O Cuidado + Família ajuda os pais a entenderem melhor as necessidades das crianças. É uma ferramenta valiosa no suporte à reabilitação e bem-estar
+                            </p>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <div class="testimonial-avatar">
+                                    <img src="./assets/images/people/p6.png" alt="mulher" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Dra. Paula</div>
+                                    <div class="testimonial-role">psicóloga infantil</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">
+                                Participo como psicóloga no app e vejo como ele fortalece os vínculos entre pais, profissionais e informações confiáveis. Faz diferença real.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog" id="blog" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 3rem 0;">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+        <h3 class="blog-title" style="text-align: center; font-size: 2.2rem; margin-bottom: 2rem;">Conheça nosso blog</h3>
+        <div class="blog-grid" style="display: flex; gap: 2.5rem; justify-content: center; align-items: stretch; flex-wrap: wrap;">
+            <a href="blog/cuidados-diarios.html" class="blog-card" style="max-width: 380px; min-width: 280px; margin: 0 auto;">
+                <div class="blog-image">
+                    <img src="./assets/images/home/medico_criança.png" alt="Cuidados diários com crianças especiais" style="width: 100%; border-radius: 10px 10px 0 0;" />
+                </div>
+                <h3 class="blog-title" style="text-align: center; font-size: 1.3rem; margin: 1rem 0 0.5rem 0;">Guia de Cuidados Diários</h3>
+                <p class="blog-description" style="text-align: center; font-size: 1rem;">Aprenda técnicas e dicas práticas para o dia a dia com crianças que precisam de cuidados especiais.</p>
+            </a>
+            <a href="blog/saude-emocional.html" class="blog-card" style="max-width: 380px; min-width: 280px; margin: 0 auto;">
+                <div class="blog-image">
+                    <img src="./assets/images/home/TerapiaFamiliar.webp" alt="Saúde emocional dos cuidadores" style="width: 100%; border-radius: 10px 10px 0 0;" />
+                </div>
+                <h3 class="blog-title" style="text-align: center; font-size: 1.3rem; margin: 1rem 0 0.5rem 0;">Cuidando de Quem Cuida</h3>
+                <p class="blog-description" style="text-align: center; font-size: 1rem;">Dicas importantes para manter a saúde emocional e o bem-estar dos pais e cuidadores.</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+            <section class="newsletter" id="contato">
+                <div class="container">
+                    <div class="newsletter-content">
+                        <h2 class="newsletter-subtitle">Assine nossa newsletter e</h2>
+                        <h2 class="newsletter-title">mantenha-se atualizado</h2>
+
+                        <form class="newsletter-form" action="#" method="post">
+    <input type="email" class="newsletter-input" placeholder="seu e-mail" required />
+    <button type="submit" class="btn">Inscreva-se</button>
+</form>
+</div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <img src="./assets/images/logos/logo-azul-fundo-transparente.png" alt="logo" class="footer-logo" />
+                        </div>
+
+                        <div class="footer-section">
+                            <h4 class="footer-title">Ficou com alguma dúvida?</h4>
+                            <div class="footer-links">
+                                <a href="#faq" class="footer-link">FAQ</a>
+                                <a href="#privacidade" class="footer-link">Política de privacidade</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"
+            integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"
+            integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

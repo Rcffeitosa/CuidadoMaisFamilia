@@ -1,0 +1,29 @@
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #0002;
+    padding: 2rem 1rem;
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.feature-title {
+    color: #1976d2;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.feature-img {
+    max-width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #0001;
+    margin-bottom: 1rem;
+}
+.feature-text {
+    font-size: 1.08rem;
+    color: #222;
+}
