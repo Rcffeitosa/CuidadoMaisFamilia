@@ -28,7 +28,7 @@ Este projeto é uma landing page criada para apresentar o projeto Cuidado + Fam�
    - Recomenda-se comprimir imagens grandes (ex: `.png` > 500kb) usando ferramentas como [TinyPNG](https://tinypng.com/) ou [Squoosh](https://squoosh.app/).
    - Formatos WebP são recomendados para produção.
 3. **Build e publicação:**
-   - O projeto pode ser hospedado facilmente no Netlify, Vercel ou GitHub Pages.
+   - O projeto pode ser hospedado facilmente no GitHub Pages.
    - Certifique-se de que todos os arquivos CSS estejam linkados no `<head>` de cada página.
 
 ## Como rodar localmente
@@ -37,3 +37,11 @@ Basta abrir o `index.html` em seu navegador ou usar uma extensão de servidor lo
 ---
 Dúvidas ou sugestões? Abra uma issue ou entre em contato.
 
+Criaadores desse projeto Grupo 
+
+RICARDO CARLOS FEITOSA
+BEATRIZ RIBEIRO MONTALVÃO
+DANIEL SANTOS MOREIRA
+JOAO FELIPE CEOLIN BARBOSA
+MARIA DA PIEDADE SENA DE OLIVEIRA
+JOAO MOREIRA
