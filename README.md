@@ -37,7 +37,7 @@ Basta abrir o `index.html` em seu navegador ou usar uma extensão de servidor lo
 ---
 Dúvidas ou sugestões? Abra uma issue ou entre em contato.
 
-Criaadores desse projeto Grupo 
+Desenvolvedores desse projeto Grupo 
 
 RICARDO CARLOS FEITOSA
 BEATRIZ RIBEIRO MONTALVÃO
