@@ -36,3 +36,4 @@ Basta abrir o `index.html` em seu navegador ou usar uma extensão de servidor lo
 
 ---
 Dúvidas ou sugestões? Abra uma issue ou entre em contato.
+
